@@ -44,7 +44,7 @@ pipeline {
                     emailext(
                         subject: "Jenkins Build - Security Scan Stage has Completed",
                         body: "The NPM Audit (Security Scan) section has finished, an attached log can be found",
-                        to: 'personalemail@something.com',
+                        to: 'personalemail1@something.com',
                         attachLog: true
                     )
                 }
